@@ -5,5 +5,6 @@ export const GifItem = ({ title, url}) => {
         <img src={url} alt={title} />
         <p>{title}</p>
     </div>
+    
   )
 }
